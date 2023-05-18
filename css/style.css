@@ -1,0 +1,138 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+header > img {
+    height: 300px;
+    width: 100%;
+}
+nav {
+    height: 50px;
+    background-color: #595A76;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.listnav {
+    list-style: none;
+}
+.nav_links{
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+.baner > img {
+    width: 100%;
+    height: 800px;
+}
+.baner{
+    position: relative;
+}
+.baner .baner_text {
+    position: absolute;
+    bottom:85px;
+    right: 89px;
+    width: 300px;
+
+}
+.baner_heading{
+    color: #fff;
+    text-shadow: 2px 2px 5px #000 ;
+    text-align: center;
+}
+hr {
+    width: 250px;
+    border: 1px solid #fff ;
+    margin: auto;
+}
+.textcontent{
+    margin-top:10px ;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px #000 ;
+    text-align: center;
+    color: #fff;
+    font-size: 17px;
+
+}
+.baner_search {
+    margin-top: 20px;
+    display: flex;
+}
+.baner_search input{
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px grey  inset ;
+}
+.baner_search button {
+    border-radius: 10px;
+    width: 100px;
+    margin-left: 20px;
+    background-color: black;
+    color: #fff;
+    box-shadow: 5px 5px 5px grey;
+}
+.container {
+    display: flex;
+}
+.content {
+    flex: 2;
+
+}
+article{
+    flex: 0.5;
+}
+.status {
+    display: flex;
+}
+.status img {
+    width: 320px;
+    border-radius: 10px;
+    margin: 10px;
+}
+.status p {
+    font-size: 20px;
+    padding: 20px;
+}
+article form {
+    border:  1px solid black ;
+    padding: 10px;
+    border-radius: 10px;
+}
+article form > input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    margin: 5px 0;
+}
+article form > label {
+    font-size: 18px;
+    font-weight: 500;
+    color: black;
+}
+article form > textarea{
+    border: 1px solid #000;
+}
+article form >button {
+    width: 100px;
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 10px ;
+    background-color: black;
+    color: #fff;
+    box-shadow: 5px 5px 8px grey;
+}
+.content hr {
+    border: 1px solid black ;
+    width: 100%;
+    margin: 5px 0;
+}
+footer {
+    height: 50px;
+    width: 100%;
+    background-color: #7C9695;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
